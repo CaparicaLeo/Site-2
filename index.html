@@ -12,9 +12,9 @@
         integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
     <title>Um homem não vive só de Sertanejo - Spotify</title>
 
-    <link rel="icon" href="imagens/favicon.png" />
+    <link rel="icon" href="resources/images/favicon.png" />
 
-    <link rel="stylesheet" type="text/css" href="css/estilo.css" />
+    <link rel="stylesheet" type="text/css" href="resources/css/estilo.css" />
 </head>
 
 <body>
@@ -22,7 +22,7 @@
         <nav class="navbar navbar-expand-md navbar-light fixed-top navbar-transparente">
             <div class="container">
                 <a href="#" class="navbar-brand">
-                    <img src="imagens/spotify.svg" width="142" />
+                    <img src="resources/images/spotify.svg" width="142" />
                 </a>
                 <div class="collapse navbar-collapse" id="nav-principal">
 
@@ -53,31 +53,39 @@
     <section id="home" class="d-flex">
         <div class="container align-self-center">
             <div class="row">
-                <div class="col-md-12">
-                    <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false">
+                <div class="col-md-12 capa">
+                    <div id="carousel-spotify" class="carousel slide" data-ride="carousel">
                         <div class="carousel-inner">
                             <div class="carousel-item active">
-                                <h1 align="center">Música para todos</h1>
+                                <!-- Aplicando a classe com a animação RGB -->
+                                <h1 class="rgb-effect">Música para todos</h1>
+                                <a href="" class="btn btn-lg btn-custom btn-roxo">
+                                    Aproveite o Spotify Free
+                                </a>
+                                <a href="" class="btn btn-lg btn-custom btn-branco">
+                                    Obter Spotify Premium
+                                </a>
                             </div>
                             <div class="carousel-item">
-                                <h1 align="center">As melhores rádios</h1>
+                                <h1>As melhores rádios</h1>
+                                <a href="" class="btn btn-lg btn-custom btn-branco">
+                                    <i class="fas fa-music"></i> Ouça Agora
+                                </a>
                             </div>
                         </div>
-                        <button class="carousel-control-prev" type="button"
-                            data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden"></span>
-                        </button>
-                        <button class="carousel-control-next" type="button"
-                            data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden"></span>
-                        </button>
+
+                        <a href="#carousel-spotify" class="carousel-control-prev" data-slide="prev">
+                            <i class="fas fa-angle-left fa-3x"></i>
+                        </a>
+                        <a href="#carousel-spotify" class="carousel-control-next" data-slide="next">
+                            <i class="fas fa-angle-right fa-3x"></i>
+                        </a>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+
     <section id="servicos" class="caixa">
         <div class="container">
             <div class="row">
@@ -85,26 +93,26 @@
                     <div class="row albuns">
                         <div class="col-md-6">
 
-                            <img src="imagens/img1.jpg" class="img-fluid">
+                            <img src="resources/images/img1.jpg" class="img-fluid">
 
                         </div>
 
                         <div class="col-md-6">
 
-                            <img src="imagens/img2.jpg" class="img-fluid">
+                            <img src="resources/images/img2.jpg" class="img-fluid">
 
                         </div>
                     </div>
                     <div class="row albuns">
                         <div class="col-md-6">
 
-                            <img src="imagens/img3.jpg" class="img-fluid">
+                            <img src="resources/images/img3.jpg" class="img-fluid">
 
                         </div>
 
                         <div class="col-md-6">
 
-                            <img src="imagens/img4.jpg" class="img-fluid">
+                            <img src="resources/images/img4.jpg" class="img-fluid">
 
                         </div>
 
@@ -159,10 +167,10 @@
                 <div class="col-md-8">
                     <div class="row rotacionar">
                         <div class="col-md-6">
-                            <img src="imagens/iphone1.png" class="img-fluid">
+                            <img src="resources/images/iphone1.png" class="img-fluid">
                         </div>
                         <div class="col-md-6">
-                            <img src="imagens/iphone2.png" class="img-fluid">
+                            <img src="resources/images/iphone2.png" class="img-fluid">
                         </div>
                     </div>
                 </div>
@@ -174,7 +182,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-2">
-                    <img src="imagens/spotify.svg" width="142">
+                    <img src="resources/images/spotify.svg" width="142">
                 </div>
                 <div class="col-md-2">
                     <h4>company</h4>
@@ -204,13 +212,13 @@
                 <div class="col-md-4">
                     <ul>
                         <li>
-                            <a href=""><img src="imagens/facebook.png"></a>
+                            <a href=""><img src="resources/images/facebook.png"></a>
                         </li>
                         <li>
-                            <a href=""><img src="imagens/twitter.png"></a>
+                            <a href=""><img src="resources/images/twitter.png"></a>
                         </li>
                         <li>
-                            <a href=""><img src="imagens/instagram.png"></a>
+                            <a href=""><img src="resources/images/instagram.png"></a>
                         </li>
 
                     </ul>
