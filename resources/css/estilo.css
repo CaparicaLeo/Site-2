@@ -89,6 +89,16 @@ nav.navbar-transparente {
 	padding-bottom: 20px;
 }
 
+.caixaLogin{
+	max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 100px; /* Centraliza verticalmente */
+}
+
 #servicos {
 	background: white;
 }
